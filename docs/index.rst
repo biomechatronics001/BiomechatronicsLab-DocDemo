@@ -13,7 +13,7 @@ More details to be added.
 
    This project is under active development as of 02/12/2024.
    
-   Build ver: 5
+   Build ver: 7
 
 Contents
 --------
