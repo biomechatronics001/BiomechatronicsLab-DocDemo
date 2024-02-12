@@ -1,20 +1,19 @@
 Welcome to Test's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This is a demo page to show how to use Readthedocs to automatically generate documentation website based on your **python** code. Other code such as *Arduino*, *C++* should also be supported but needs to be tested.
 
-Check out the :doc:`factorial` and :doc:`people` section for more information. 
+Readthedocs automatically pulls docstring from your code file. Some useful tutorials can be found `here <https://docs.readthedocs.io/en/stable/tutorial/index.html>`, `here <https://pythonforthelab.com/blog/documenting-with-sphinx-and-readthedocs/>`, and `here <https://amazonwebshark.com/open-source-documentation-with-read-the-docs/>`.
 
-Check how to :ref:`installation` the project.
+This demonstrates the page reference function: :doc:`factorial` and :doc:`people`. 
+
+More details to be added.
 
 .. note::
 
    This project is under active development as of 02/12/2024.
    
-   Build ver: 4
+   Build ver: 5
 
 Contents
 --------
