@@ -13,12 +13,13 @@ Check how to :ref:`installation` the project.
 .. note::
 
    This project is under active development as of 02/12/2024.
+   
+   Build ver: 2
 
 Contents
 --------
 
 .. toctree::
-    :maxdepth: 4
     :caption: Contents:
 
     factorial
