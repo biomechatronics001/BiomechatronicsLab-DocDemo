@@ -1,5 +1,5 @@
 """
-Module factorial
+Module factorial!
 ================
 This module supplies one function, factorial() to calculate the factorial of an integer.
 """
