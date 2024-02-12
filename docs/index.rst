@@ -14,7 +14,7 @@ Check how to :ref:`installation` the project.
 
    This project is under active development as of 02/12/2024.
    
-   Build ver: 3
+   Build ver: 4
 
 Contents
 --------
