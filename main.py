@@ -1,5 +1,5 @@
-from factorial import factorial
-from people import Person, Teacher
+from my_module.factorial import factorial
+from my_module.people import Person, Teacher
 
 if __name__=="__main__":
     a = factorial(5)
