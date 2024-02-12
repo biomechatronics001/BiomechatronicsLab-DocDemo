@@ -17,7 +17,7 @@ class Person:
 
 
 class Teacher(Person):
-    """Class to store a teacher's information. It subclasses Person."""
+    """Class to store a teacher's information. It subclasses :class:`Person`."""
     def __init__(self, name, course):
         """Create a teacher object by providing a name and the course it teaches."""
         super().__init__(name)
