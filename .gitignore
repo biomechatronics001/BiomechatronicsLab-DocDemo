@@ -3,3 +3,6 @@ docs/_build/
 
 # ignore .vscode folder
 .vscode/
+
+# ignore .DS_Store files from MacOS
+*.DS_Store

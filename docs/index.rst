@@ -21,7 +21,41 @@ Setup
    .. image:: /img/readthedocs_setting_page.png
       :align: left
 
-#. Clone this repo () to your local PC.
+#. Fork this repo (https://github.com/biomechatronics001/ReadTheDocs_PythonTest) and name the new repo based on your project. You will use it as a starting point.
+
+#. Go back to your Readthedocs homepage, click the ``Import a Project`` button on the top of the page, and then select the repository you just created by clicking the **+** sign next to it. 
+
+   .. image:: /img/readthedocs_import_project_page.png
+      :align: left
+   
+   .. image:: /img/readthedocs_import_repository_page.png
+      :align: left
+
+   .. caution::
+      Please make sure that the repository you created is set to **public** in order for Readthedocs to access it.
+
+#. Readthedocs will import the selected repository and starting building the website. Under the ``Builds`` tab, you can see the build progress or errors. Typically the build should finish in about 30 seconds. Once the build passes, press the green ``View Docs`` button on the top right corner of the page. It will open up a webpage which is the same as the page you are looking at right now.
+
+   .. image:: /img/readthedocs_first_success_homepage.png
+      :align: left
+
+#. Now your webpage is live online and you could copy the url and share it with others! By default, Readthedocs tracks the repository such that each ``push`` operation will trigger a rebuild (update) of the entire webpage, as you can see in the ``Builds`` tab. 
+
+Visual Studio Code Setup (Optional but Highly Recommended)
+----------------------------------------------------------
+
+#. As mentioned above, each ``push`` operation to the repository will automatically trigger a rebuild of the webpage. Although this process is relatively fast (\< 1 min), it is still preferrable if we can see the changes reflected *locally* and *in real time* before pushing the changes to GitHub. In this case, we can use Visual Studio Code (VSCode) by Microsoft. VSCode can be downloaded from here: https://code.visualstudio.com/download.
+
+#. Clone the GitHub repository you just created to your local PC and open the folder in VSCode through ``File -> Open Folder`` menu.
+
+#. Next we will show how to modify this demo page.
+
+Modify the Contents
+-------------------
+
+#. 
+
+
 
 .. note::
 
