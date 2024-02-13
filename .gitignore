@@ -1,0 +1,5 @@
+# ignore the _build folder under docs (it contains locally built webpages)
+docs/_build/
+
+# ignore .vscode folder
+.vscode/
