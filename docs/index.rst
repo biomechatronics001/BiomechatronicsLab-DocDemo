@@ -129,7 +129,7 @@ Available resources:
 
    This project is under active development as of 02/14/2024.
    
-   Build ver: 11
+   Build ver: 12
 
 
 
@@ -142,4 +142,5 @@ Contents
     factorial
     people
     Foo
+    Foo2
     cat
