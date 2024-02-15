@@ -114,11 +114,24 @@ Modify the Contents
 
       Check in the documentation of the class ``Teacher`` in ``my_module/people.py`` how we use the internal cross-reference ``:class:`Person``` to link to the documentation of its parent class ``People``.
 
+Document cpp files
+------------------
+
+Available resources:
+
+* https://devblogs.microsoft.com/cppblog/clear-functional-c-documentation-with-sphinx-breathe-doxygen-cmake/
+* https://medium.com/@aytackahveci93/documenting-c-code-with-sphinx-d6315b338615
+* https://medium.com/practical-codingc-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-7d555386fe13
+
+
+
 .. note::
 
-   This project is under active development as of 02/13/2024.
+   This project is under active development as of 02/14/2024.
    
-   Build ver: 9
+   Build ver: 10
+
+
 
 Contents
 --------
@@ -128,3 +141,5 @@ Contents
 
     factorial
     people
+    Foo
+    cat
