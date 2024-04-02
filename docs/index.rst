@@ -52,7 +52,7 @@ Visual Studio Code Setup (Optional but Highly Recommended)
 
 #. Install ``sphinx 7.1.2`` and ``sphinx-book-theme 1.1.1`` into your selected python environment by executing ``/path/to/your/python/executable -m pip install sphinx==7.1.2 sphinx-book-theme==1.1.1``. If you are using a virtual environment, activate it first and then execute ``conda install sphinx==7.1.2 sphinx-book-theme==1.1.1``. Sphinx is the rendering engine.
 
-#. Go to the ``Extensions`` tab on the left panel of VSCode. Install the ``Python`` extension by Microsoft and any subsequent extensions it prompts you to install. Then install ``Live Preview`` extension by Microsoft. Then install ``reStructuredText`` extension from LeXtudio Inc. Then install ``reStructuredText Syntax Highlighting`` extension from Trond Snekvik if VSCode doesn't automatically prompt you to do so. In the end, VSCode should also prompt you to install ``esbonio``, please also install it.
+#. Go to the ``Extensions`` tab on the left panel of VSCode. Install the ``Python`` extension by Microsoft and any subsequent extensions it prompts you to install. Then install ``Live Preview`` extension by Microsoft. Then install ``reStructuredText`` extension from LeXtudio Inc. Then install ``reStructuredText Syntax Highlighting`` extension from Trond Snekvik if VSCode doesn't automatically prompt you to do so. In the end, VSCode should also prompt you to install ``esbonio`` and ``Preview engine``, please also install it.
 
    .. image:: /img/vscode_restructuredtext_plugins.png
       :align: center
@@ -63,8 +63,13 @@ Visual Studio Code Setup (Optional but Highly Recommended)
    .. code-block:: json
 
       {
-         "esbonio.sphinx.confDir": "${workspaceFolder}/docs"
+         "esbonio.sphinx.confDir": "${workspaceFolder}/docs",
+         "esbonio.sphinx.buildDir": "${workspaceFolder}/docs/_build",
       }
+   
+   .. note:: 
+
+      If ``.vscode`` folder is not automatically created, then please manually create this folder. Then create ``settings.json`` under this folder.
 
 #. Click the ``esbonio`` label on the bottom status bar again to rebuild the webpage. If the build succeeds, you should see something like below.
 
